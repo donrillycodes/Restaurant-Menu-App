@@ -31,7 +31,7 @@ public class MenuActivity extends AppCompatActivity implements BottomNavigationV
         // Set the selected item in the bottom navigation bar
         int selectedItemId = getIntent().getIntExtra("SELECTED_ITEM_ID", R.id.navigation_starter);
 
-        loadFragmentForid(selectedItemId);
+        loadFragmentForId(selectedItemId);
 
         //binding bottom nav bar
         binding.bottomNavBar.setOnNavigationItemSelectedListener(this);
@@ -39,7 +39,7 @@ public class MenuActivity extends AppCompatActivity implements BottomNavigationV
     }
 
     //Load the fragment based on the selected item from the main activity
-    private void loadFragmentForid(int selectedItemId) {
+    private void loadFragmentForId(int selectedItemId) {
         if (selectedItemId == R.id.navigation_starter){
             onStarterClicked();
         } else if (selectedItemId == R.id.navigation_main_course){

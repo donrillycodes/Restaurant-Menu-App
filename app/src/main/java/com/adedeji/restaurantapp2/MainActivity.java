@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         dessertCard = findViewById(R.id.card_view_dessert);
         drinksCard = findViewById(R.id.card_view_drinks);
 
+
         starterCard.setOnClickListener(v -> {
             Intent intent = new Intent(MainActivity.this, MenuActivity.class);
             intent.putExtra("SELECTED_ITEM_ID", R.id.navigation_starter);
