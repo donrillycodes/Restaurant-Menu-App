@@ -44,25 +44,6 @@ This Android application showcases a clean and efficient way to render a restaur
   </tr>
 </table>
 
-## Project Structure
-
-Restaurant-Menu-App/
-│
-├── app/
-│   ├── src/
-│   │   ├── main/
-│   │   │   ├── java/com/example/restaurantmenu/
-│   │   │   │   ├── MainActivity.java
-│   │   │   │   ├── fragments/
-│   │   │   │   ├── adapters/
-│   │   │   │   └── models/
-│   │   │   └── res/
-│   │   │       ├── layout/
-│   │   │       ├── drawable/
-│   │   │       └── values/
-│   └── build.gradle
-│
-└── README.md
 
 ## Purpose of the Project
 This project serves as a clean example of:
